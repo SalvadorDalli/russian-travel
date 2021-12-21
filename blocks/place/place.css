@@ -1,0 +1,24 @@
+.place {
+    display: flex;
+    min-width: 320px;
+    flex-wrap: wrap;
+    margin: 0 auto 80px;
+    max-width: 984px;
+}
+
+.place:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 766px) {
+    .place {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+  }
+  
+  @media screen and (min-width: 583px) and (max-width: 768px) {
+    .place {
+        margin-bottom: 73px;
+    }
+  }
