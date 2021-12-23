@@ -1,60 +1,20 @@
 .place__paragraph {
-    font-family: 'Inter', Arial, sans-serif;
-    max-width: 484px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29.34px;
-    margin-top: 0;
-    margin-bottom: 26px;
-    color: #fff;
+  margin: 0 auto 26px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 163%;
 }
 
 .place__paragraph:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-@media screen and (max-width: 1023px) {
-    .place__paragraph {
-        line-height: 26.08px;
-      font-size: 16px;
-    }
+@media screen and (max-width: 960px) {
+  .place__paragraph {
+    font-size: 16px;
   }
-  
-  @media screen and (max-width: 766px) {
-    .place__paragraph {
-        margin-top: 32px;
-    }
-  }
-  
-  @media screen and (max-width: 376px) {
-    .place__paragraph {
-        margin-left: 16px;
-        max-width: 288px;
-    }
-  }
-  
-  @media screen and (min-width: 490px) and (max-width: 766px) {
-    .place__paragraph {
-        max-width: 717.6px;
-    }
-  }
-  
-  @media screen and (min-width: 1023px) and (max-width: 1025px) {
-    .place__paragraph {
-        width: 455px;
-    }
-  }
-  
-  @media screen and (min-width: 1025px) and (max-width: 1279px) {
-    .place__paragraph {
-        width: 400px;
-    }
-  }
-  
-  @media screen and (min-width: 766px) and (max-width: 1023px) {
-    .place__paragraph {
-        width: 340px;
-    }
-  }
-  
+}
   
