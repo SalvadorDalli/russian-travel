@@ -22,6 +22,6 @@
 
 **Ссылка на проект**
 
-Ознакомиться с проектом можно по [ссылке](https://github.com/SalvadorDalli/russian-travel)
+Ознакомиться с проектом можно по [ссылке](https://salvadordalli.github.io/russian-travel/)
 
 
